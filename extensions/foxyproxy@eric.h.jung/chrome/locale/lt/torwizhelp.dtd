@@ -1,0 +1,13 @@
+<!ENTITY help.title.foxyproxy.help "FoxyProxy Žinynas">
+<!ENTITY help.patterns "URL taisyklės">
+<!ENTITY help.ff.asks "Firefox prieš įkraunant URL, klausia FoxyProxy ar turi būti naudojamas tarpinis serveris.">
+<!ENTITY help.fp.answers "FoxyProxy atsako į šį klausimą sulygindama esamą URL su jūsų žemiau nustatytomis URL taisyklėmis. Taisykles lengviausia nurodyti naudojant pakaitos simbolį.">
+<!ENTITY help.a.wildcards "Pakaitos simboliai">
+<!ENTITY help.p.wildcards.are "Pakaitos simboliai sutinkami visame IT pasaulyje; jūs greičiausiai matėte juos anksčiau. Žvaigždutė (*) pakeičiama 0 ar daugiau simbolių, o klaustukas (?) pakeičiamas betkokiu vienu simboliu.">
+<!ENTITY help.p.regexp "Sudėtingesnes taisykles galima sukrti naudojant reguliariąsias išraiškas. Išsamiau paspauskite „Žinyno turinys“.">
+<!ENTITY help.h4.wildcard.examples "Pakaitinių simbolių pavyzdžiai">
+<!ENTITY help.th.url.pattern "URL taisyklė">
+<!ENTITY help.th.some.matches "Keli atitinkantys">
+<!ENTITY help.th.some.non.matches "Keli neatitinkantys">
+<!ENTITY help.td.everything.in.y "Viskas Yahoo domene">
+<!ENTITY help.i.matches.everything "Atitinka viską">

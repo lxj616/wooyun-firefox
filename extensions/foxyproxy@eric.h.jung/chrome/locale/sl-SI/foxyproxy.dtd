@@ -1,0 +1,614 @@
+<!ENTITY foxyproxy.basic.label "FoxyProxy Basic">
+<!ENTITY foxyproxy.standard.label "FoxyProxy Standard">
+<!ENTITY foxyproxy.plus.label "FoxyProxy Plus">
+<!ENTITY foxyproxy.accesskey "F">
+<!ENTITY foxyproxy.options.label "Možnosti">
+<!ENTITY foxyproxy.options.accesskey "M">
+<!ENTITY foxyproxy.options.tooltip "Odpri pogovorno okno možnosti">
+<!ENTITY foxyproxy.tree.pickertooltiptext.label "Kliknite za izbiro prikazanih stolpcev">
+<!ENTITY foxyproxy.proxy.name.label "Ime posrednika">
+<!ENTITY foxyproxy.proxy.name.accesskey "m">
+<!ENTITY foxyproxy.proxy.name.tooltip "Ime posrednika">
+<!ENTITY foxyproxy.proxy.notes.label "Opombe posrednika">
+<!ENTITY foxyproxy.proxy.notes.accesskey "b">
+<!ENTITY foxyproxy.proxy.notes.tooltip "Opombe posrednika">
+<!ENTITY foxyproxy.proxy.wizard.label "Čarovnik za posrednika">
+<!ENTITY foxyproxy.proxy.wizard.accesskey "s">
+<!ENTITY foxyproxy.proxy.wizard.tooltip "Ustvari posrednika iz naročnine">
+<!ENTITY foxyproxy.proxy.wizard.description1 "Ta čarovnik samodejno nastavi vaš naročeni posrednik. Spodaj vnesite svoj ID naročnine. Če nimate ID-ja naročnine,">
+<!ENTITY foxyproxy.proxy.wizard.description2 "ga lahko kupite">
+<!ENTITY foxyproxy.proxy.wizard.subscriptionID.label "ID naročnine">
+<!ENTITY foxyproxy.proxy.wizard.subscriptionID.tooltip "Vnesite ID naročnine svojega posrednika">
+<!ENTITY foxyproxy.proxy.wizard.loading.label "Pridobivanje podrobnosti posrednika ...">
+<!ENTITY foxyproxy.proxy.wizard.congratulation "Čestitke. FoxyProxy je nastavljen.">
+<!ENTITY foxyproxy.proxy.wizard.whatsmyip.label "Preveri mojo lokacijo">
+<!ENTITY foxyproxy.pattern.label "Vzorec">
+<!ENTITY foxyproxy.urlpatterns.label "Vzorci URL-ja">
+<!ENTITY foxyproxy.urlpatterns.accesskey "V">
+<!ENTITY foxyproxy.urlpatterns.tooltip "Vzorci URL-ja">
+<!ENTITY foxyproxy.pattern.type.label "Vrsta vzorca">
+<!ENTITY foxyproxy.whitelist.blacklist.label "Beli seznam (vključitev) ali Črni seznam (izključitev)">
+<!ENTITY foxyproxy.pattern.name.label "Ime vzorca">
+<!ENTITY foxyproxy.pattern.name.accesskey "z">
+<!ENTITY foxyproxy.pattern.name.tooltip "Ime za vzorec">
+<!ENTITY foxyproxy.url.pattern.label "Vzorec URL-ja">
+<!ENTITY foxyproxy.url.pattern.accesskey "V">
+<!ENTITY foxyproxy.url.pattern.tooltip "Vzorec URL-ja">
+<!ENTITY foxyproxy.enabled.label "Omogočeno">
+<!ENTITY foxyproxy.enabled.accesskey "č">
+<!ENTITY foxyproxy.enabled.tooltip "Preklopi omogoči/onemogoči">
+<!ENTITY foxyproxy.delete.selection.label "Izbriši izbiro">
+<!ENTITY foxyproxy.delete.selection.accesskey "b">
+<!ENTITY foxyproxy.delete.selection.tooltip "Izbriši trenutno izbrani predmet">
+<!ENTITY foxyproxy.edit.selection.label "Uredi izbiro">
+<!ENTITY foxyproxy.edit.selection.accesskey "U">
+<!ENTITY foxyproxy.edit.selection.tooltip "Uredi trenutno izbrani predmet">
+<!ENTITY foxyproxy.help.label "Vsebina pomoči">
+<!ENTITY foxyproxy.help.accesskey "V">
+<!ENTITY foxyproxy.help.tooltip "Prikaži pomoč">
+<!ENTITY foxyproxy.import.pattern.label "Uvozi">
+<!ENTITY foxyproxy.import.pattern.accesskey "U">
+<!ENTITY foxyproxy.import.pattern.tooltip "Uvozi vzorce">
+<!ENTITY foxyproxy.export.pattern.label "Izvozi">
+<!ENTITY foxyproxy.export.pattern.accesskey "o">
+<!ENTITY foxyproxy.export.pattern.tooltip2 "Izvozi vse vzorce">
+<!ENTITY foxyproxy.close.label "Zapri">
+<!ENTITY foxyproxy.close.accesskey "Z">
+<!ENTITY foxyproxy.close.tooltip "Zapri okno">
+<!ENTITY foxyproxy.about.label "O dodatku">
+<!ENTITY foxyproxy.about.accesskey "O">
+<!ENTITY foxyproxy.about.tooltip "Odpre polje O dodatku">
+<!ENTITY foxyproxy.online.label "FoxyProxy na spletu">
+<!ENTITY foxyproxy.online.accesskey "F">
+<!ENTITY foxyproxy.online.tooltip "Obiščite spletno stran FoxyProxy">
+<!ENTITY foxyproxy.tor.label "Čarovnik Tor">
+<!ENTITY foxyproxy.tor.accesskey "T">
+<!ENTITY foxyproxy.tor.tooltip "Čarovnik Tor">
+<!ENTITY foxyproxy.copy.selection.label "Kopiraj izbiro">
+<!ENTITY foxyproxy.copy.selection.accesskey "K">
+<!ENTITY foxyproxy.copy.selection.tooltip "Kopira izbiro">
+<!ENTITY foxyproxy.mode.label "Izberite način">
+<!ENTITY foxyproxy.wpad.label1 "po WPAD-u">
+<!--For translators: The following two strings are already included into Firefox and may be found in the Preferences panel -> Advanced -> Network Settings-->
+<!ENTITY foxyproxy.wpad.accesskey "W">
+<!ENTITY foxyproxy.wpad.tooltip "Samodejno zaznaj nastavitve posrednika z uporabo WPAD-a">
+<!ENTITY foxyproxy.wpad.reload.label "Samodejno zaznaj nastavitve posrednika vsakih">
+<!ENTITY foxyproxy.wpad.reload.accesskey "m">
+<!ENTITY foxyproxy.wpad.reload.tooltip "Samodejno zaznaj posrednika vsako določeno obdobje">
+<!ENTITY foxyproxy.wpad.tree.label "Samodejno zaznaj posrednika">
+<!ENTITY foxyproxy.auto.url.label "URL samodejne nastavitve posrednika">
+<!ENTITY foxyproxy.auto.url.tooltip "Vnesite URL za datoteko PAC">
+<!ENTITY foxyproxy.auto.url.note.label "http(s)://   ftp://   file://   relative://">
+<!ENTITY foxyproxy.auto.url.note.tooltip "Kliknite ikono podatkov za podatke o shemi relative://">
+<!ENTITY foxyproxy.ip.address.label "Naslov IP">
+<!ENTITY foxyproxy.port.label "Vrata">
+<!ENTITY foxyproxy.port.accesskey "V">
+<!ENTITY foxyproxy.port.tooltip "Vrata">
+<!ENTITY foxyproxy.socks.v4 "SOCKS v4/4a">
+<!ENTITY foxyproxy.socks.v5 "SOCKS v5">
+<!ENTITY foxyproxy.addeditpattern.title "Dodaj/Uredi vzorec">
+<!ENTITY foxyproxy.wildcard.label "Nadomestni zanki">
+<!ENTITY foxyproxy.wildcard.accesskey "N">
+<!ENTITY foxyproxy.wildcard.tooltip "Določa, da vzorec URL-ja uporablja nadomestne znake in da ni običajni izraz">
+<!ENTITY foxyproxy.wildcard.example.label "Primer: *mail.yahoo.com/*">
+<!ENTITY foxyproxy.regex.label "Običajni izraz">
+<!ENTITY foxyproxy.regex.accesskey "O">
+<!ENTITY foxyproxy.regex.tooltip "Določa, da je vzorec URL-ja običajni izraz">
+<!ENTITY foxyproxy.regex.example.label2 "Primer: ^https?://.*\.mail\.yahoo\.com/.*$">
+<!ENTITY foxyproxy.version "Različica">
+<!ENTITY foxyproxy.createdBy "Avtor:">
+<!ENTITY foxyproxy.contributionsBy "Prispevki:">
+<!ENTITY foxyproxy.copyright "Avtorske pravice">
+<!ENTITY foxyproxy.rights "Vse pravice pridržane.">
+<!ENTITY foxyproxy.released "Izdano z licenco GPL.">
+<!ENTITY foxyproxy.tab.general.label "Splošno">
+<!ENTITY foxyproxy.tab.general.accesskey "S">
+<!ENTITY foxyproxy.tab.general.tooltip "Upravljaj s splošnimi nastavitvami posrednika">
+<!ENTITY foxyproxy.tab.proxy.label "Podrobnosti posrednika">
+<!ENTITY foxyproxy.tab.proxy.accesskey "P">
+<!ENTITY foxyproxy.tab.proxy.tooltip "Upravljaj s podrobnostmi posrednika">
+<!ENTITY foxyproxy.tab.patterns.label "Vzorci">
+<!ENTITY foxyproxy.tab.patterns.accesskey "V">
+<!ENTITY foxyproxy.tab.patterns.tooltip "Upravljaj z vzorci URL-ja">
+<!ENTITY foxyproxy.add.title "Nastavitve posrednika">
+<!ENTITY foxyproxy.pattern.description "Tukaj lahko določite, kdaj se posrednik uporablja in kdaj ne.">
+<!ENTITY foxyproxy.pattern.nointernal.label "Tega posrednika ne uporabljaj za notranje naslove IP">
+<!ENTITY foxyproxy.pattern.nointernal.tooltip "To potrditveno polje vam omogoča omejiti posrednika na nenotranje naslove IP">
+<!ENTITY foxyproxy.pattern.nointernal.accesskey "T">
+<!ENTITY foxyproxy.pattern.matchtype.label "Vzorec vsebuje">
+<!ENTITY foxyproxy.pattern.whiteblack.label "Izključeni/Vključeni URL-ji">
+<!ENTITY foxyproxy.add.option.direct.label "Neposredna internetna povezava (brez posrednika)">
+<!ENTITY foxyproxy.add.option.direct.accesskey "N">
+<!ENTITY foxyproxy.add.option.direct.tooltip "Ne uporabi posrednika - uporabi osnovno neposredno internetno povezavo">
+<!ENTITY foxyproxy.add.option.manual.label "Ročna nastavitev posrednika">
+<!ENTITY foxyproxy.add.option.manual.accesskey "R">
+<!ENTITY foxyproxy.add.option.manual.tooltip "Ročno nastavite nastavitve posrednika">
+<!ENTITY foxyproxy.add.new.pattern.label "Dodaj novi vzorec">
+<!ENTITY foxyproxy.add.new.pattern.accesskey "D">
+<!ENTITY foxyproxy.add.new.pattern.tooltip "Dodaj novi vzorec">
+<!ENTITY foxyproxy.menubar.file.label "Datoteka">
+<!ENTITY foxyproxy.menubar.file.accesskey "D">
+<!ENTITY foxyproxy.menubar.file.tooltip "Odpri meni Datoteka">
+<!ENTITY foxyproxy.menubar.help.label "Pomoč">
+<!ENTITY foxyproxy.menubar.help.accesskey "P">
+<!ENTITY foxyproxy.menubar.help.tooltip "Odpri meni Pomoč">
+<!ENTITY foxyproxy.mode.accesskey "N">
+<!ENTITY foxyproxy.mode.tooltip "Izberite kako omogočiti FoxyProxy">
+<!ENTITY foxyproxy.proxy.label "Posrednik">
+<!ENTITY foxyproxy.tab.proxies.label "Posredniki">
+<!ENTITY foxyproxy.tab.proxies.accesskey "P">
+<!ENTITY foxyproxy.tab.proxies.tooltip "Upravljaj s posredniki">
+<!ENTITY foxyproxy.tab.global.label "Splošne nastavitve">
+<!ENTITY foxyproxy.tab.global.accesskey "S">
+<!ENTITY foxyproxy.tab.global.tooltip "Upravljaj s splošnimi nastavitvami">
+<!ENTITY foxyproxy.settings.advanced.label "Napredne nastavitve">
+<!ENTITY foxyproxy.settings.advanced.tooltip "Klik na gumb odpre pogovorno okno naprednih nastavitev dodatka FoxyProxy">
+<!ENTITY foxyproxy.tab.logging.label "Beleženje">
+<!ENTITY foxyproxy.tab.logging.accesskey "B">
+<!ENTITY foxyproxy.tab.logging.tooltip "Upravljaj nastavitve beleženja">
+<!ENTITY foxyproxy.proxydns.label3 "Opravi oddaljena iskanja DNS na imenih gostiteljev, ki se nalagajo preko tega posrednika">
+<!ENTITY foxyproxy.proxydns.accesskey "r">
+<!ENTITY foxyproxy.proxydns.tooltip3 "Če je označeno, bodo imena gostiteljev URL-jev, ki se nalagajo preko tega posrednika, z njim tudi razrešena">
+<!ENTITY foxyproxy.proxydns.label4 "DNS posrednika">
+<!ENTITY foxyproxy.cache.label "Predpomnilnik">
+<!ENTITY foxyproxy.clearcache.label "Počisti predpomnilnik programa pred uporabo tega posrednika">
+<!ENTITY foxyproxy.clearcache.accesskey "P">
+<!ENTITY foxyproxy.clearcache.tooltip "Če je označeno, počisti predpomnilnik pred uporabo tega posrednika">
+<!ENTITY foxyproxy.disablecache.label "Ne uporabi predpomnilnika med uporabo tega posrednika">
+<!ENTITY foxyproxy.disablecache.accesskey "N">
+<!ENTITY foxyproxy.disablecache.tooltip "Če je označeno, program v bodoče ne bo uporabljal predpomnilnika">
+<!ENTITY foxyproxy.cookies.label "Piškotki">
+<!ENTITY foxyproxy.clearcookies.label "Odstrani vse piškotke pred uporabo tega posrednika">
+<!ENTITY foxyproxy.clearcookies.accesskey "O">
+<!ENTITY foxyproxy.clearcookies.tooltip "Če je označeno, odstrani vse piškotke pred uporabo tega posrednika">
+<!ENTITY foxyproxy.rejectcookies.label "Blokiraj vse piškotke ob uporabi tega posrednika">
+<!ENTITY foxyproxy.rejectcookies.accesskey "B">
+<!ENTITY foxyproxy.rejectcookies.tooltip "Če je označeno, bo brskalnik ob uporabi tega posrednika zavrnil vse piškotke">
+<!ENTITY foxyproxy.showstatusbaricon.label "Prikaži ikono v vrstici stanja">
+<!ENTITY foxyproxy.showstatusbaricon.accesskey "c">
+<!ENTITY foxyproxy.showstatusbaricon.tooltip "Če je označeno, bo ikona FoxyProxy prikazana v vrstici stanja">
+<!ENTITY foxyproxy.showstatusbarmode.label "Prikaži način (v besedilu) na vrstici stanja">
+<!ENTITY foxyproxy.showstatusbarmode.accesskey "n">
+<!ENTITY foxyproxy.showstatusbarmode.tooltip "Če je označeno, bo v vrstici stanja prikazan način FoxyProxyja">
+<!ENTITY foxyproxy.storagelocation.label.2 "Mesto nastavitev">
+<!ENTITY foxyproxy.storagelocation.accesskey "o">
+<!ENTITY foxyproxy.storagelocation.tooltip "Mesto za shranjevanje nastavitev FoxyProxyja">
+<!ENTITY foxyproxy.tab.logging.timestamp.label "Časovni žig">
+<!ENTITY foxyproxy.tab.logging.url.label "URL">
+<!ENTITY foxyproxy.host.label.2 "Gostitelj ali naslov IP">
+<!ENTITY foxyproxy.host.accesskey "G">
+<!ENTITY foxyproxy.clear.label "Počisti">
+<!ENTITY foxyproxy.clear.accesskey "P">
+<!ENTITY foxyproxy.clear.tooltip "Počisti">
+<!ENTITY foxyproxy.refresh.label "Osveži">
+<!ENTITY foxyproxy.refresh.accesskey "v">
+<!ENTITY foxyproxy.refresh.tooltip "Osveži">
+<!ENTITY foxyproxy.save.label "Shrani">
+<!ENTITY foxyproxy.save.accesskey "S">
+<!ENTITY foxyproxy.save.tooltip "Shrani">
+<!ENTITY foxyproxy.openurlinnewtab.label "Odpri URL v novem zavihku">
+<!ENTITY foxyproxy.openurlinnewtab.accesskey "O">
+<!ENTITY foxyproxy.openurlinnewtab.tooltip "Odpri URL v novem zavihku">
+<!ENTITY foxyproxy.copyurltoclipboard.label "Kopiraj URL na odložošče">
+<!ENTITY foxyproxy.copyurltoclipboard.accesskey "K">
+<!ENTITY foxyproxy.copyurltoclipboard.tooltip "Kopiraj URL na odložišče">
+<!ENTITY foxyproxy.addnewproxy.label "Dodaj novega posrednika">
+<!ENTITY foxyproxy.addnewproxy.accesskey "D">
+<!ENTITY foxyproxy.addnewproxy.tooltip "Dodaj novega posrednika">
+<!ENTITY foxyproxy.useselectedforallurls.label "Uporabi izbranega posrednika za vse URL-je">
+<!ENTITY foxyproxy.useselectedforallurls.accesskey "U">
+<!ENTITY foxyproxy.useselectedforallurls.tooltip "Uporabi izbranega posrednika za vse URL-je">
+<!ENTITY foxyproxy.whitelist.label "Beli seznam">
+<!ENTITY foxyproxy.whitelist.accesskey "B">
+<!ENTITY foxyproxy.whitelist.tooltip "URL-ji, ki se ujemajo s tem vzorcem, bodo naloženi preko tega posrednika">
+<!ENTITY foxyproxy.whitelist.description.label "URL-ji, ki se ujemajo s tem vzorcem, bodo naloženi preko tega posrednika">
+<!ENTITY foxyproxy.blacklist.label "Črni seznam">
+<!ENTITY foxyproxy.blacklist.accesskey "Č">
+<!ENTITY foxyproxy.blacklist.tooltip "URL-ji, ki se ujemajo s tem vzorcem, ne bodo naloženi preko tega posrednika">
+<!ENTITY foxyproxy.blacklist.description.label "URL-ji, ki se ujemajo s tem vzorcem, ne bodo naloženi preko tega posrednika">
+<!ENTITY foxyproxy.whiteblack.description.label "Vzorci Črnega seznama (izključitve) imajo prednost pred Belim seznamom (vključitvami): če se URL ujema tako s Črnim seznamom kot z Belim za istega posrednika, le-ta ne bo naložil tega URL-ja.">
+<!ENTITY foxyproxy.socks.version.label "Različica SOCKS">
+<!ENTITY foxyproxy.autopacurl.label "Samodejni URL PAC">
+<!ENTITY foxyproxy.issocks.label "Posrednik SOCKS?">
+<!ENTITY foxyproxy.issocks.accesskey "r">
+<!ENTITY foxyproxy.issocks.tooltip "Ali je to spletni posrednik ali posrednik SOCKS?">
+<!ENTITY foxyproxy.moveup.label "Premakni gor">
+<!ENTITY foxyproxy.moveup.tooltip "Povečaj prednost trenutne izbire">
+<!ENTITY foxyproxy.moveup.accesskey "o">
+<!ENTITY foxyproxy.movedown.label "Premakni dol">
+<!ENTITY foxyproxy.movedown.tooltip "Zmanjšaj prednost trenutne izbire">
+<!ENTITY foxyproxy.movedown.accesskey "d">
+<!ENTITY foxyproxy.system.label "Uporabi sistemske nastavitve posrednika">
+<!ENTITY foxyproxy.system.accesskey "U">
+<!ENTITY foxyproxy.system.tooltip2 "Uporabi nastavitve posrednika iz vaših nastavitev sistema">
+<!ENTITY foxyproxy.automatic.label "Samodejna nastavitev posrednika">
+<!ENTITY foxyproxy.automatic.accesskey "S">
+<!ENTITY foxyproxy.automatic.tooltip "Samodejno dobi nastavitve posrednika">
+<!ENTITY foxyproxy.pac.label "po PAC-u">
+<!ENTITY foxyproxy.pac.accesskey "P">
+<!ENTITY foxyproxy.pac.tooltip "Dobi nastavitve posrednika z uporabo datoteke PAC">
+<!ENTITY foxyproxy.autoconfurl.view.label "Pogled">
+<!ENTITY foxyproxy.autoconfurl.view.accesskey "o">
+<!ENTITY foxyproxy.autoconfurl.view.tooltip "Pokaži datoteko samodejne nastavitve">
+<!ENTITY foxyproxy.autoconfurl.test.label "Preskusi">
+<!ENTITY foxyproxy.autoconfurl.test.accesskey "e">
+<!ENTITY foxyproxy.autoconfurl.test.tooltip "Preskusi datoteko samodejne nastavitve">
+<!ENTITY foxyproxy.autoconfurl.reload.label "Ponovno naloži PAC vsakih">
+<!ENTITY foxyproxy.autoconfurl.reload.accesskey "n">
+<!ENTITY foxyproxy.autoconfurl.reload.tooltip "Samodejno ponovno naloži datoteko PAC vsako določeno obdobje">
+<!ENTITY foxyproxy.minutes.label "minut">
+<!ENTITY foxyproxy.minutes.tooltip "minut">
+<!ENTITY foxyproxy.logging.maxsize.label "Največja velikost pred ponastavitvijo dnevnika">
+<!ENTITY foxyproxy.logging.maxsize.accesskey "a">
+<!ENTITY foxyproxy.logging.maxsize.tooltip "Največje število dnevniških vnosov preden se dnevnik ponastavi na začetek">
+<!ENTITY foxyproxy.logging.maxsize.button.label "Nastavi">
+<!ENTITY foxyproxy.logging.maxsize.button.accesskey "N">
+<!ENTITY foxyproxy.logging.maxsize.button.tooltip "Največje število dnevniških vnosov preden se dnevnik ponastavi na začetek">
+<!ENTITY foxyproxy.random.label "Naloži URL-je preko naključnih posrednikov (prezri vse vzorce in prednosti)">
+<!ENTITY foxyproxy.random.accesskey "N">
+<!ENTITY foxyproxy.random.tooltip "Naloži URL-je preko naključnih posrednikov (prezri vse vzorce in prednosti)">
+<!ENTITY foxyproxy.random.includedirect.label "Vključi posrednike nastavljene kot neposredne internetne povezave">
+<!ENTITY foxyproxy.random.includedirect.accesskey "V">
+<!ENTITY foxyproxy.random.includedirect.tooltip "Posredniki, ki si nastavljeni kot neposredne internetne povezave, bodo vključeni v izbiro naključnih posrednikov">
+<!ENTITY foxyproxy.random.includedisabled.label "Vključi onemogočene posrednike">
+<!ENTITY foxyproxy.random.includedisabled.accesskey "o">
+<!ENTITY foxyproxy.random.includedisabled.tooltip "Posredniki, ki si nastavljeni kot onemogočeni, bodo vključeni v izbiro naključnih posrednikov">
+<!ENTITY foxyproxy.random.settings.label "Naključna izbira posrednikov">
+<!ENTITY foxyproxy.random.settings.accesskey "N">
+<!ENTITY foxyproxy.random.settings.tooltip "Nastavitve. ki se nanašajo na naključno izbiro posrednikov">
+<!ENTITY foxyproxy.tab.autoadd.label "AutoAdd">
+<!ENTITY foxyproxy.tab.autoadd.accesskey "A">
+<!ENTITY foxyproxy.tab.autoadd.tooltip "Upravljaj z nastavitvami AutoAdd">
+<!ENTITY foxyproxy.autoadd.description "Navedite vzorec, ki določa blokirane spletne strani. Kadar je na strani najden vzorec, se URL spletne stran samodejno doda posredniku in izbirno ponovno naloži. To vam omogoča, da vam ni treba bolj dejavno prepoznati vse blokirane spletne strani.">
+<!ENTITY foxyproxy.autoadd.pattern.label "Vzorec za prepoznavanje blokiranih spletnih strani">
+<!ENTITY foxyproxy.autoadd.pattern.accesskey "n">
+<!ENTITY foxyproxy.autoadd.pattern.tooltip "Vzorec, ki prepozna blokirane spletne strani">
+<!ENTITY foxyproxy.autoadd.wildcard.example.label "Primer: *Niste pooblaščeni za ogled te strani*">
+<!ENTITY foxyproxy.autoadd.regex.example.label "Primer: .*Stran.* je bila blokirana.*">
+<!ENTITY foxyproxy.autoadd.proxy.label "Posrednik, kateremu so vzorci samodejno dodani">
+<!ENTITY foxyproxy.autoadd.proxy.accesskey "P">
+<!ENTITY foxyproxy.autoadd.proxy.tooltip "Navedite posrednika, kateremu so URL-ji samodejno dodani">
+<!ENTITY foxyproxy.pattern.template.label "Predloga vzorca URL-ja">
+<!ENTITY foxyproxy.pattern.template.accesskey "P">
+<!ENTITY foxyproxy.pattern.template.tooltip "Predloga vzorca URL-ja">
+<!ENTITY foxyproxy.pattern.template.example.label1 "Primer za">
+<!ENTITY foxyproxy.pattern.template.example.label2 "http://fred:secret@mail.foo.com:8080/inbox/msg102.htm#subject?style=elegant">
+<!ENTITY foxyproxy.pattern.template.currenturl.label "Trenutni URL">
+<!ENTITY foxyproxy.pattern.template.currenturl.accesskey "T">
+<!ENTITY foxyproxy.pattern.template.currenturl.tooltip "URL v naslovni vrstici">
+<!ENTITY foxyproxy.pattern.template.generatedpattern.label "Ustvarjen vzorec">
+<!ENTITY foxyproxy.pattern.template.generatedpattern.accesskey "U">
+<!ENTITY foxyproxy.pattern.template.generatedpattern.tooltip "Dinamično ustvarjen vzorec">
+<!ENTITY foxyproxy.autoadd.reload.label "Ponovno naloži stran po dodajanju vzorca posredniku">
+<!ENTITY foxyproxy.autoadd.reload.accesskey "P">
+<!ENTITY foxyproxy.autoadd.reload.tooltip "Ponovno naloži stran po dodajanju vzorca posredniku">
+<!ENTITY foxyproxy.autoadd.notify.label "Obvesti me, kadar je omogočen AutoAdd">
+<!ENTITY foxyproxy.autoadd.notify.accesskey "O">
+<!ENTITY foxyproxy.autoadd.notify.tooltip "Vas obvesti, kadar je stran blokirana in je vzorec URL-ja dodan posredniku">
+<!ENTITY foxyproxy.autoadd.notify.tooltip2 "Prikaži pojavno okno, kadar je omogočen AutoAdd">
+<!ENTITY foxyproxy.pacloadnotification.label "Obvesti me o nalaganjih datoteke za samodejno nastavitev posrednika">
+<!ENTITY foxyproxy.pacloadnotification.accesskey "n">
+<!ENTITY foxyproxy.pacloadnotification.tooltip "Prikaži pojavno okno, kadar se naloži datoteka PAC">
+<!ENTITY foxyproxy.pacerrornotification.label "Obvesti me o napakah datoteke za samodejno nastavitev posrednika">
+<!ENTITY foxyproxy.pacerrornotification.accesskey "a">
+<!ENTITY foxyproxy.pacerrornotification.tooltip "Prikaži pojavno okno, kadar se naleti na napake datoteke PAC">
+<!ENTITY foxyproxy.toolbaricon.label "Prikaži ikono na orodni vrstici">
+<!ENTITY foxyproxy.toolbaricon.accesskey "d">
+<!ENTITY foxyproxy.toolbaricon.tooltip "Prikaži ikono na orodni vrstici">
+<!ENTITY foxyproxy.toolsmenu.label2 "Prikaži ikono v meniju Orodja">
+<!ENTITY foxyproxy.toolsmenu.accesskey "m">
+<!ENTITY foxyproxy.toolsmenu.tooltip2 "Prikaži ikono v meniju Orodja">
+<!ENTITY foxyproxy.tip.label "Namig">
+<!ENTITY foxyproxy.pactip1.label "Za datoteke PAC shranjene na krajevnem trdem disku uporabite shemo file://. Na primer file://c:/path/proxy.pac v Windowsu ali file:///home/users/joe/proxy.pac v sistemih Unix/Linux/Mac.">
+<!ENTITY foxyproxy.pactip2.label "Za datoteke PAC na strežniku ftp uporabite shemo ftp://. Na primer ftp://leahscape.com/path/proxy.pac.">
+<!ENTITY foxyproxy.pactip3.label "Uporabite lahko tudi http://, https:// ali druge podprte sheme.">
+<!ENTITY foxyproxy.pactip4.label "Končno če želite navesti datoteko PAC na krajevnem datotečnem sistemu z uporabo relativne poti, lahko uporabite posebno shemo FoxyProxyja relative://. To je uporabno, če je vaša datoteka PAC na pomnilniškem ključku. Podprte relativne poti so dokumentirane">
+<!ENTITY foxyproxy.pactip5.label "tukaj">
+<!ENTITY foxyproxy.pactip6.label ". Posebni nizi v URL-ju relative:// se nadomestijo s njihovimi pripadajočimi vrednostmi. Na primer relative://ProfD/pacs/proxy3.pac kaže na datoteko proxy3.pac v podmapi">
+<!ENTITY foxyproxy.pactip7.label "mape Firefoxovega profila">
+<!ENTITY foxyproxy.pactip8.label "z imenom pacs/. Na prenosnem Firefoxu za Windows je mapa Firefoxovega profila vedno relativna pot, ker se črka pogona lahko v drugih računalnikih spremeni. Upoštevajte, da so posebni nizi (ProfD, Home, TenmD, itd.) občutljivi na velikost črk!">
+<!ENTITY foxyproxy.contextmenu.label "Prikaži ikono v vsebinskem meniju">
+<!ENTITY foxyproxy.contextmenu.accesskey "b">
+<!ENTITY foxyproxy.contextmenu.tooltip "Prikaži ikono v vsebinskem meniju">
+<!ENTITY foxyproxy.quickadd.desc1 "QuickAdd doda dinamični vzorec URL-ja posredniku, kadar pritisnete Alt-F2. To je praktična nadomestna izbira za AutoAdd. Prilagodite bližnjico Alt-F2 z razširitvijo">
+<!ENTITY foxyproxy.keyconfig.label "KeyConfig">
+<!ENTITY foxyproxy.quickadd.desc2 ".">
+<!ENTITY foxyproxy.quickadd.label "QuickAdd">
+<!ENTITY foxyproxy.quickadd.accesskey "Q">
+<!ENTITY foxyproxy.quickadd.tooltip "Upravljaj z nastavitvami QuickAdd">
+<!ENTITY foxyproxy.quickadd.notify.label "Obvesti me, kadar je omogočen QuickAdd">
+<!ENTITY foxyproxy.quickadd.notify.accesskey "n">
+<!ENTITY foxyproxy.quickadd.notify.tooltip "Prikaži pojavno okno, kadar je omogočen QuickAdd">
+<!ENTITY foxyproxy.quickadd.notify.whencanceled.label "Obvesti me, kadar je QuickAdd preklican">
+<!ENTITY foxyproxy.quickadd.notify.whencanceled.label2 "QuickAdd se samodejno prekliče, kadar se URL iz naslovne vrstice že ujema z vzorcem Belega seznama v posredniku QuickAdd. Na ta način se preprečijo podvojeni vzorci, ki lahko naredijo zmedo v vaših nastavitvah.">
+<!ENTITY foxyproxy.quickadd.notify.whencanceled.accesskey "Q">
+<!ENTITY foxyproxy.quickadd.notify.whencanceled.tooltip "Prikaži pojavno okno, kadar je QuickAdd omogočen, vendar preklican">
+<!ENTITY foxyproxy.whatsthis "Kaj je to?">
+<!ENTITY foxyproxy.quickadd.prompt.label "Pozovi za urejanje in potrditev pred dodajanjem vzorca posredniku">
+<!ENTITY foxyproxy.quickadd.prompt.accesskey "z">
+<!ENTITY foxyproxy.quickadd.prompt.tooltip "Pozovi za urejanje in potrditev pred dodajanjem vzorca posredniku">
+<!ENTITY foxyproxy.quickadd.proxy.label "Posrednik, kateremu se dodaja vzorec">
+<!ENTITY foxyproxy.quickadd.proxy.accesskey "s">
+<!ENTITY foxyproxy.quickadd.proxy.tooltip "Izberite posrednika, kateremu bo dodan vzorec">
+<!ENTITY foxyproxy.advancedmenus.label "Uporabi napredne menije">
+<!ENTITY foxyproxy.advancedmenus.accesskey "U">
+<!ENTITY foxyproxy.advancedmenus.tooltip "Uporabi napredne menije (slog FoxyProxy 2.2)">
+<!ENTITY foxyproxy.importsettings.label2 "Uvozi nastavitve">
+<!ENTITY foxyproxy.importsettings.accesskey "U">
+<!ENTITY foxyproxy.importsettings.tooltip "Uvozi nastavitve iz datoteke">
+<!ENTITY foxyproxy.exportsettings.label2 "Izvozi trenutne nastavitve">
+<!ENTITY foxyproxy.exportsettings.accesskey "v">
+<!ENTITY foxyproxy.exportsettings.tooltip "Izvozi trenutne nastavitve v datoteko">
+<!ENTITY foxyproxy.importlist.label "Uvozi seznam posrednikov">
+<!ENTITY foxyproxy.importlist.accesskey "U">
+<!ENTITY foxyproxy.importlist.tooltip "Uvozi seznam posrednikov v besedilni datoteki">
+<!ENTITY foxyproxy.wildcard.reference.label "Seznam nadomestnih znakov">
+<!ENTITY foxyproxy.wildcard.reference.accesskey "S">
+<!ENTITY foxyproxy.wildcard.reference.tooltip "Seznam nadomestnih znakov">
+<!ENTITY foxyproxy.wildcard.reference.subtitle.label "Zvezdica (*) nadomešča nič ali več znakov in vprašaj (?) nadomešča en znak">
+<!ENTITY foxyproxy.wildcard.reference.goal.label "Cilj">
+<!ENTITY foxyproxy.wildcard.reference.goal1.label "Ujemaj z vsemi stranmi v poddomeni www MySpace">
+<!ENTITY foxyproxy.wildcard.reference.goal2.label "Ujemaj s krajevnim PC-jem">
+<!ENTITY foxyproxy.wildcard.reference.goal3.label "Ujemaj z vsemi poddomenami in stranmi na abc.com">
+<!ENTITY foxyproxy.wildcard.reference.goal4.label "Ujemaj z vsem stranmi v domeni a.foo.com, toda ne v b.foo.com">
+<!ENTITY foxyproxy.wildcard.reference.correct.label "Popravi">
+<!ENTITY foxyproxy.wildcard.reference.correct2.label "Morata biti dva vzorca">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.label "Nepravilno">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.reason.label "Vzrok zakaj je nepravilno">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.reason1.label "Ker ni nadomestnih znakov, se ujema samo z domačo stranjo">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.reason2.label "FoxyProxy ne razume te vrste skladnosti">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.reason3.label "Ni nadomestnih znakov">
+<!ENTITY foxyproxy.wildcard.reference.incorrect.reason4.label "Ni nadomestnih znakov">
+<!ENTITY foxyproxy.logging.noURLs.label "Ne shranjuj ali prikaži URL-je">
+<!ENTITY foxyproxy.logging.noURLs.accesskey "e">
+<!ENTITY foxyproxy.logging.noURLs.tooltip "URL-je se ne shranjuje v RAM ali na disk">
+<!ENTITY foxyproxy.pattern.template.reference.label "Seznam predlog vzorca">
+<!ENTITY foxyproxy.pattern.template.reference.tooltip "Seznam predlog vzorca">
+<!ENTITY foxyproxy.pattern.template.reference.specialstring.label "Poseben niz">
+<!ENTITY foxyproxy.pattern.template.reference.subststring.label "Nadomeščen s/Z">
+<!ENTITY foxyproxy.pattern.template.reference.example.label "Primer">
+<!ENTITY foxyproxy.pattern.template.reference.scheme.label "protokol">
+<!ENTITY foxyproxy.pattern.template.reference.username.label "uporabniško ime">
+<!ENTITY foxyproxy.pattern.template.reference.password.label "geslo">
+<!ENTITY foxyproxy.pattern.template.reference.userpass.label "uporabniško ime in geslo s &quot;:&quot; in &quot;@&quot;">
+<!ENTITY foxyproxy.pattern.template.reference.host.label "gostitelj">
+<!ENTITY foxyproxy.pattern.template.reference.port.label "vrata">
+<!ENTITY foxyproxy.pattern.template.reference.hostport.label "gostitelj in vrata s &quot;:&quot;">
+<!ENTITY foxyproxy.pattern.template.reference.prepath.label "niz pred potjo">
+<!ENTITY foxyproxy.pattern.template.reference.path.label "pot (vključno s imenom datoteke)">
+<!ENTITY foxyproxy.pattern.template.reference.directory.label "mapa">
+<!ENTITY foxyproxy.pattern.template.reference.filebasename.label "osnovno ime datoteke">
+<!ENTITY foxyproxy.pattern.template.reference.fileextension.label "končnica datoteke">
+<!ENTITY foxyproxy.pattern.template.reference.filename.label "polno ime datoteke">
+<!ENTITY foxyproxy.pattern.template.reference.ref.label "del za &quot;#&quot;">
+<!ENTITY foxyproxy.pattern.template.reference.query.label "del za &quot;?&quot;">
+<!ENTITY foxyproxy.pattern.template.reference.spec.label "poln URL">
+<!ENTITY foxyproxy.notifications.label "Obvestila">
+<!ENTITY foxyproxy.notifications.tooltip "Nastavitve obvestil">
+<!ENTITY foxyproxy.indicators.label "Kazalniki">
+<!ENTITY foxyproxy.indicators.tooltip "Nastavitve kazalnikov">
+<!ENTITY foxyproxy.misc.label "Razno">
+<!ENTITY foxyproxy.misc.tooltip "Nastavitve za razno">
+<!ENTITY foxyproxy.animatedicons.label "Animiraj ikone, kadar je posrednik v uporabi">
+<!ENTITY foxyproxy.animatedicons.accesskey "A">
+<!ENTITY foxyproxy.animatedicons.tooltip "Animiraj ikone, kadar je posrednik dejaven ('Splošne nastavitve -&gt; Animacije' mora biti označeno)">
+<!ENTITY foxyproxy.statusbaractivation.label "Omogočanje vrstice stanja">
+<!ENTITY foxyproxy.statusbaractivation.tooltip "Nastavitve omogočanja vrstice stanja">
+<!ENTITY foxyproxy.toolbaractivation.label "Omogočanje orodne vrstice">
+<!ENTITY foxyproxy.toolbaractivation.tooltip "Nastavitve omogočanja orodne vrstice">
+<!ENTITY foxyproxy.leftclicksb.label "Levi klik">
+<!ENTITY foxyproxy.leftclicksb.accesskey "L">
+<!ENTITY foxyproxy.leftclicksb.tooltip "Dejanje levega klika FoxyProxyja v vrstici stanja">
+<!ENTITY foxyproxy.middleclicksb.label "Srednji klik">
+<!ENTITY foxyproxy.middleclicksb.accesskey "S">
+<!ENTITY foxyproxy.middleclicksb.tooltip "Dejanje srednjega klika FoxyProxyja v vrstici stanja">
+<!ENTITY foxyproxy.rightclicksb.label "Desni Klik">
+<!ENTITY foxyproxy.rightclicksb.accesskey "D">
+<!ENTITY foxyproxy.rightclicksb.tooltip "Dejanje desnega klika FoxyProxyja v vrstici stanja">
+<!ENTITY foxyproxy.leftclicktb.label "Levi klik">
+<!ENTITY foxyproxy.leftclicktb.accesskey "v">
+<!ENTITY foxyproxy.leftclicktb.tooltip "Dejanje levega klika FoxyProxyja v orodni vrstici">
+<!ENTITY foxyproxy.middleclicktb.label "Srednji klik">
+<!ENTITY foxyproxy.middleclicktb.accesskey "r">
+<!ENTITY foxyproxy.middleclicktb.tooltip "Dejanje srednjega klika FoxyProxyja v orodni vrstici">
+<!ENTITY foxyproxy.rightclicktb.label "Desni klik">
+<!ENTITY foxyproxy.rightclicktb.accesskey "e">
+<!ENTITY foxyproxy.rightclicktb.tooltip "Dejanje desnega klika FoxyProxyja v orodni vrstici">
+<!ENTITY foxyproxy.click.options "Prikaži pogovorno okno možnosti">
+<!ENTITY foxyproxy.click.cycle "Preklopi med načini">
+<!ENTITY foxyproxy.click.contextmenu "Prikaži vsebinski meni">
+<!ENTITY foxyproxy.click.reloadcurtab "Ponovno naloži trenutni zavihek">
+<!ENTITY foxyproxy.click.reloadtabsinbrowser "Ponovno naloži vse zavihke v trenutnem brskalniku">
+<!ENTITY foxyproxy.click.reloadtabsinallbrowsers "Ponovno naloži vse zavihke v vseh brskalnikih">
+<!ENTITY foxyproxy.click.removeallcookies "Odstrani piškotke">
+<!ENTITY foxyproxy.click.toggle "Preklopi med trenutnim načinom in onemogočanjem">
+<!ENTITY foxyproxy.includeincycle.label "Vključi ta posrednik ob preklapljanju med posredniki s klikom na vrstico stanja ali orodno vrstico ('Splošne nastavitve -&gt; Omogočanje vrstice stanja/orodne vrstice -&gt; Preklapljaj med načini' mora biti izbrano)">
+<!ENTITY foxyproxy.includeincycle.accesskey "V">
+<!ENTITY foxyproxy.includeincycle.tooltip "Vključi ta ta posrednik ob kliku na vrstico stanja/orodno vrstico">
+<!ENTITY foxyproxy.changes.msg1 "Na pomoč! Kje so nastavitve za HTTP, SSL, FTP, Gopher in SOCKS?">
+<!ENTITY foxyproxy.newGUI.popup.height "280px">
+<!ENTITY foxyproxy.newGUI.popup.width "400px">
+<!ENTITY foxyproxy.newGUI1.label "Star zaslon nastavitev posrednika FoxyProxy je bil osnovan na in je skoraj identičnem pogovornemu oknu Nastavitev povezave za Firefox, ki je bil v zameno identičen Nastavitvam posrednika v nekdanjem brskalniku Mosaic 2.1.1 iz 1996. Težava z vsemi temi zasloni je njihova omejena zmožnost usmerjanja prometa s protokolom. Brskalniki 21. stoletja, kot je Firfox, obvladajo veliko več protokolov kot HTTP, SSL, FTP in GOPHER. Brez dvoma bi bili ti stari zasloni nepriročni, če bi poskušali vključevati vsak možen protokol.">
+<!ENTITY foxyproxy.newGUI2.label "Ker FoxyProxy že omogoča usmerjanje prometa po protokolu z vzorci nadomestnih in običajnih znakov, je navajanje protokolov na tem zaslonu nepotrebno. Od različice 2.5 naprej je FoxyProxy odstranil seznam protokolov iz grafičnega uporabniškega vmesnika Nastavitev posrednika. Vendar pa to ne zmanjša opravilnosti. Vmesnik naredi preprostejši. Če morate usmerjati promet s protokolom, določite vzorce belega in črnega seznama in bodite pazljivi na del vzorca s shemo/protokolom (npr. ftp://*.yahoo.com/*, *://leahscape.com/*, itd.)">
+<!ENTITY foxyproxy.newGUI4.label "Kliknite tukaj za več podatkov.">
+<!ENTITY foxyproxy.error.msg.label "Sporočilo o napaki">
+<!ENTITY foxyproxy.pac.result.label "Rezultat PAC">
+<!ENTITY foxyproxy.torwiz.height "375">
+<!ENTITY foxyproxy.casesensitive.label "Občutljivo na velikost črk">
+<!ENTITY foxyproxy.casesensitive.accesskey "O">
+<!ENTITY foxyproxy.casesensitive.tooltip "Omogoči/Onemogoči občutljivost črk za ujemanje z URL-ji">
+<!ENTITY foxyproxy.statusbarwidth.label "Stalna širina">
+<!ENTITY foxyproxy.statusbarwidth.accesskey "S">
+<!ENTITY foxyproxy.statusbarwidth.tooltip "Prepreči spreminjanje velikosti vrstice stanja">
+<!ENTITY foxyproxy.pixels "slikovnih točk">
+<!ENTITY foxyproxy.unlimited.label "[0: prilagodi]">
+<!ENTITY foxyproxy.temp.popup.label "Začasni vzorci vam omogočajo ustvarjanje vzorcev za URL-je, ki jih ne obiščete pogosto brez da bi naredili zmedo na seznamu vzorcev za posrednika. Začasni vzorci se ne shranijo na disk. Ohranijo se v pomnilniku in uporabijo samo za to sejo Firefoxa.">
+<!ENTITY foxyproxy.temp.label "Začasni">
+<!ENTITY foxyproxy.temp.accesskey "Z">
+<!ENTITY foxyproxy.temp.tooltip "Vzorec se uporablja samo za to sejo Firefoxa">
+<!ENTITY foxyproxy.fromSubscription.label "Naročeni">
+<!ENTITY foxyproxy.define.label "Določi">
+<!ENTITY foxyproxy.define.accesskey "D">
+<!ENTITY foxyproxy.define.tooltip "Določi">
+<!ENTITY foxyproxy.pattern.to.quickadd.label "Vzorec za hitro dodajanje posredniku">
+<!ENTITY foxyproxy.pattern.to.autoadd.label "Vzorec za samodejno dodajanje posredniku">
+<!ENTITY foxyproxy.home "Domača stran">
+<!ENTITY foxyproxy.support "Podpora">
+<!ENTITY foxyproxy.credits "Zasluge">
+<!ENTITY foxyproxy.please.donate.label "Prispevaj">
+<!ENTITY foxyproxy.please.donate.accesskey "r">
+<!ENTITY foxyproxy.importantnote.label "Preberite pomembno obvestilo">
+<!ENTITY foxyproxy.resetlocation.label "Ponastavi mesto">
+<!ENTITY foxyproxy.resetlocation.accesskey "P">
+<!ENTITY foxyproxy.resetlocation.tooltip "Shrani nastavitve v Firefoxov profil">
+<!ENTITY foxyproxy.settings.not.default "nastavitve niso na privzetem mestu.">
+<!ENTITY foxyproxy.change.host.reload "Nastavite novega gostitelja:vrata in potem ponovno naložite stran">
+<!ENTITY foxyproxy.proxyservice.label "Kupi storitev posredništva">
+<!ENTITY foxyproxy.proxyservice.accesskey "v">
+<!ENTITY foxyproxy.proxyservice.tooltip "Naroči se na storitev poredništva">
+<!ENTITY foxyproxy.proxyservice2.label "Ali potrebujete hitre in zanesljive posrednike v ZDA, Združenem kraljestvu in drugih državah?">
+<!ENTITY foxyproxy.getfoxyproxyplus.label "Dobi FoxyProxy Plus">
+<!ENTITY foxyproxy.foxyproxychrome.label "FoxyProxy za Chrome">
+<!ENTITY foxyproxy.foxyproxychrome.accesskey "F">
+<!ENTITY foxyproxy.foxyproxychrome.tooltip "Poskusite FoxyProxy za Chrome">
+<!ENTITY foxyproxy.invalidcolor.label "Neveljavna barva">
+<!ENTITY foxyproxy.validcolor.label "Veljavna barva">
+<!ENTITY foxyproxy.color.label "Barva">
+<!ENTITY foxyproxy.color.description "Barva ikone, kadar je posrednik v uporabi">
+<!ENTITY foxyproxy.server.subscriptions.label "Naročnine na strežnike">
+<!ENTITY foxyproxy.server.subscriptions.tooltip "Upravljaj z naročninami na strežnike">
+<!ENTITY foxyproxy.server.subscriptions.accesskey "U">
+<!ENTITY foxyproxy.selectproxy.label "Izberite posrednika">
+<!ENTITY foxyproxy.proxy.subscriptions.label "Naročnine na posrednike">
+<!ENTITY foxyproxy.proxy.subscriptions.accesskey "a">
+<!ENTITY foxyproxy.proxy.subscriptions.tooltip "Upravljaj z naročninami na posrednike">
+<!ENTITY foxyproxy.proxy.subscriptions.description "Naroči se na posrednike, ki so jih objavili drugi. Dajte svoje posrednike v souporabo z drugimi v samo nekaj klikih.">
+<!ENTITY foxyproxy.proxy.subscriptions.sharing.label "Daj moje posrednike v souporabo">
+<!ENTITY foxyproxy.proxy.subscriptions.menulist.tooltip "Izberite, kaj naj se naredi z naročninami.">
+<!ENTITY foxyproxy.proxy.subscriptions.addSubscription "Dodaj novo naročnino na posrednika">
+<!ENTITY foxyproxy.proxy.subscriptions.viewSubscription "Pokaži naročnino na posrednika">
+<!ENTITY foxyproxy.proxy.subscriptions.addedit.title "Dodaj/Uredi naročnino na posrednika">
+<!ENTITY foxyproxy.proxy.subscriptions.refreshHelp "odstrani vse obstoječe naročene posrednike">
+<!ENTITY foxyproxy.proxy.subscriptions.proxy.type.label "Vrsta posrednika">
+<!ENTITY foxyproxy.proxy.subscriptions.proxy.type.tooltip "Izberite vrsto posrednikov na seznamu, ki jih želite uvoziti. Če izberete &quot;Ne vem&quot;, bo domnevano, da so HTTP.">
+<!ENTITY foxyproxy.proxy.subscriptions.unknown.label "Ne vem">
+<!ENTITY foxyproxy.proxy.subscriptions.http.label "HTTP">
+<!ENTITY foxyproxy.proxy.subscriptions.socks.label "SOCKS">
+<!ENTITY foxyproxy.proxy.subscriptions.subscriptionTypeHelp "Ta možnost vam omogoča izbiro vrste posrednikov za vašo naročnino. Če izberete &quot;Ne vem&quot;, bo domnevano, da so HTTP. Isto velja za izbiro &quot;HTTP&quot;. Če izberete &quot;SOCKS&quot;, jih bo namesto tega FoxyProxy obravnaval kot SOCKS5.">
+<!ENTITY foxyproxy.proxy.subscriptions.proxy.window.title "Naročeni posredniki">
+<!ENTITY foxyproxy.pattern.subscriptions.label "Naročeni vzorci">
+<!ENTITY foxyproxy.pattern.subscriptions.description "Naroči se na vzorce, ki so jih objavili drugi. Dajte svoje vzorce v souporabo z drugimi v samo nekaj klikih.">
+<!ENTITY foxyproxy.pattern.subscriptions.tooltip "Upravljaj z naročninami na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.accesskey "U">
+<!ENTITY foxyproxy.pattern.subscriptions.sharing.label "Daj moje vzorce v souporabo">
+<!ENTITY foxyproxy.pattern.subscriptions.menulist.tooltip "Izberite, kaj naj se zgodi z naročninami na vzorce.">
+<!ENTITY foxyproxy.pattern.subscriptions.addSubscription "Dodaj nove naročnina na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.editSelection "Uredi naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.deleteSelections "Izbriši naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshSelections "Osveži izbire">
+<!ENTITY foxyproxy.pattern.subscriptions.viewSubscription "Pokaži naročnino na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.go.label "Pojdi">
+<!ENTITY foxyproxy.pattern.subscriptions.go.tooltip "Kliknite tukaj za izvršitev svoje izbire.">
+<!ENTITY foxyproxy.pattern.subscriptions.lastStatus.label "Zadnje stanje">
+<!ENTITY foxyproxy.pattern.subscriptions.addedit.title "Dodaj/Uredi naročnino na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.name.label "Ime naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.name.tooltip "Ime naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.notes.label "Opis naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.notes.tooltip "Opis naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.url.label "URL naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.url.tooltip "URL naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.proxies.tooltip "Posredniki, ki so se naročili na ta seznam vzorcev">
+<!ENTITY foxyproxy.pattern.subscriptions.addProxies.label "Dodaj posrednike">
+<!ENTITY foxyproxy.pattern.subscriptions.addProxies.tooltip "Dodajte posrednike, ki se bodo naročili na ta seznam vzorcev">
+<!ENTITY foxyproxy.pattern.subscriptions.removeProxies.label "Odstrani izbrano">
+<!ENTITY foxyproxy.pattern.subscriptions.removeProxies.tooltip "Prekliči naročnino na ta seznam vzorcev za izbrane posrednike">
+<!ENTITY foxyproxy.pattern.subscriptions.refresh.label "Hitrost osveževanja">
+<!ENTITY foxyproxy.pattern.subscriptions.refresh.tooltip "Hitrost osveževanja te naročnine na vzorce v minutah">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshNow.label "Osveži zdaj">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshNow.tooltip "Osveži to naročnino na vzorce zdaj">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshHelp1 "Navedite število minut, po katerem bo naročnina posodobljena. Posodobitev naročnine">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshHelp2 "odstrani vse obstoječe vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.refreshHelp4 "in potem vstavi tiste, ki so bili najdeni v URL-ju naročnine. Več o tem">
+<!ENTITY foxyproxy.pattern.subscriptions.zeroRefresh "(0 za nikoli)">
+<!ENTITY foxyproxy.pattern.subscriptions.format.tooltip "Oblika tega seznama naročnin na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.formatHelp "Navedite obliko, v kateri je napisana naročnina. Običajno FoxyProxy to samodejno zazna. Več o tem">
+<!ENTITY foxyproxy.pattern.subscriptions.obfuscation.tooltip "Oblika maskiranja te naročnine na vzorce">
+<!ENTITY foxyproxy.pattern.subscriptions.obfuscationHelp "Naročnine so po izbiri maskirane zaradi preprečitve filtriranja vsebine, ki jo naredijo računalniki med vami in naročenim URL-jem. Običajno FoxyProxy to samodejno zazna. Več o tem">
+<!ENTITY foxyproxy.pattern.subscriptions.copyLastStatus.label "Kopiraj zadnje stanje na odložišče">
+<!ENTITY foxyproxy.pattern.subscriptions.copyLastStatus.tooltip "Kopiraj zadnje stanje na odložišče">
+<!ENTITY foxyproxy.pattern.subscriptions.pattern.window.title "Vzorci naročnine">
+<!ENTITY foxyproxy.none.label "Brez">
+<!ENTITY foxyproxy.name.label "Ime">
+<!ENTITY foxyproxy.notes.label "Opombe">
+<!ENTITY foxyproxy.url.label "url">
+<!ENTITY foxyproxy.lastupdate.label "Zadnja posodobitev">
+<!ENTITY foxyproxy.updatefrequency.label "Pogostost posodabljanja">
+<!ENTITY foxyproxy.status.label "Stanje">
+<!ENTITY foxyproxy.format.label "Oblika">
+<!ENTITY foxyproxy.obfuscation.label "Maskiranje">
+<!ENTITY foxyproxy.compatibilitycheck.proxy.tooltip "Izberite posrednika, ki ga želite uporabiti za preverjanje združljivosti dodatkov po posodobitvi programa">
+<!ENTITY foxyproxy.compatibilitycheck.proxy.help "Kadar Firefox/Thunderbird/SeaMonkey ob zagonu išče za posodobitve dodatkov na http://addons.mozilla.org, je mogoče, da to iskanje zaobide vaše vzorce posrednika. Tukaj lahko določite posrednika, ki naj se uporabi za te redke primere.">
+<!-- begin foxyproxyplus -->
+<!ENTITY foxyproxy.ip.pattern.addedit.title "Dodaj/Uredi vzorec krajevnih naslovov IP">
+<!ENTITY foxyproxy.tempip.popup.label "Začasni vzorci vam omogočajo ustvarjanje vzorcev za URL-je, ki jih ne obiščete pogosto brez da bi naredili zmedo na seznamu vzorcev za posrednika. Začasni vzorci se ne shranijo na disk. Ohranijo se v pomnilniku in uporabijo samo za to sejo Firefoxa.">
+<!ENTITY foxyproxy.ip.pattern.label "Vzorec krajevnih naslovov IP">
+<!ENTITY foxyproxy.ip.pattern.accesskey "V">
+<!ENTITY foxyproxy.ip.pattern.tooltip "Vzorec krajevnih naslovov IP">
+<!ENTITY foxyproxy.ip.patterns.label "Vzorci krajevnih naslovov IP">
+<!ENTITY foxyproxy.ip.patterns.accesskey "z">
+<!ENTITY foxyproxy.ip.patterns.tooltip "Vzorci krajevnih naslovov IP">
+<!ENTITY foxyproxy.ip.wildcard.reference.matches.label "se ujema">
+<!ENTITY foxyproxy.ip.wildcard.reference.nomatch.label "se ne ujema">
+<!ENTITY foxyproxy.ip.whiteblack.label "Vključitev/Izključitev">
+<!ENTITY foxyproxy.ip.whitelist.description.label "URL-ji se naložijo preko tega posrednika, kadar se en od vaših naslovov IP ujema z vzorcem">
+<!ENTITY foxyproxy.ip.blacklist.description.label "URL-ji se NE naložijo preko tega posrednika, kadar se en od vaših naslovov IP ujema z vzorcem">
+<!ENTITY foxyproxy.ip.wildcard.reference.subtitle.label "Zvezdica (*) nadomešča nič ali več znakov.">
+<!ENTITY foxyproxy.ip.current.local.label "Trenutni krajevni naslov IP">
+<!ENTITY foxyproxy.copyip.label "Kopiraj v vzorec">
+<!ENTITY foxyproxy.copyip.tooltip "Kopiraj naslov v vzorec">
+<!ENTITY foxyproxy.copyip.accesskey "K">
+<!ENTITY foxyproxy.ip.wildcard.example.label "Primer: 192.168.1.*">
+<!ENTITY foxyproxy.ip.regex.example.label "Primer: 172\.\d+\.1\.10">
+<!ENTITY foxyproxy.ip.pattern.match "Vzorec se ujema z enim ali več trenutnimi krajevnimi naslovi IP">
+<!ENTITY foxyproxy.ip.pattern.no.match "Vzorec se ne ujema z nobenim trenutnim krajevnim naslovom IP">
+<!ENTITY foxyproxy.refreshlocalips "Osveži krajevne naslov IP">
+<!ENTITY foxyproxy.refreshlocalips.accesskey "O">
+<!ENTITY foxyproxy.enterlicense.label "Vnesite licenčni ključ">
+<!ENTITY foxyproxy.enteremail.label "Vnesite e-poštni naslov">
+<!ENTITY foxyproxy.licenseinfo.label "Podatki o licenci">
+<!ENTITY foxyproxy.licensevalid.label "Licenca je veljavna. Hvala za nakup dodatke FoxyProxy Plus.">
+<!ENTITY foxyproxy.subexpired.label "Licenca je veljavna, toda naročnina na posodobitve je potekla. Trenutne ne prejemate posodobitev FoxyProxy Plus.">
+<!ENTITY foxyproxy.licenseinvalid.label "Licenca ni veljavna. Ne boste prejemali posodobitev FoxyProxy Plus. Kupite FoxyProxy Plus.">
+<!ENTITY foxyproxy.buynow.label "Kupi zdaj">
+<!ENTITY foxyproxy.checklicense.label "Preveri licenco">
+<!ENTITY foxyproxy.checkinglicense.label "Preverjanje ... počakajte">
+<!ENTITY foxyproxy.yourversion.label "Vaša različica">
+<!ENTITY foxyproxy.latestversion.label "Najnovejša različica">
+<!ENTITY foxyproxy.routetoleahscape.label.1 "Prepričajte se, da Firefox lahko dostopa">
+<!ENTITY foxyproxy.routetoleahscape.label.2 "do ene od obeh s ali brez posrednika. Če je potrebo, lahko nastavite vzorce za ta URL v dodatku FoxyProxy Plus.">
+<!ENTITY foxyproxy.everything.label "Vse">
+<!ENTITY foxyproxy.nothing.label "Nič">
+<!ENTITY foxyproxy.ippatterndeletefinal.label "To je zadnji vzorec krajevnih naslovov IP. Če ga izbrišete, tega posrednika ne boste mogli uporabljati. Vseeno nadaljuj?">
+<!ENTITY foxyproxy.licenseplea.label "FoxyProxy Plus ima minimalne protivirusne ukrepe. Če uporabljate FoxyProxy Plus, kupice licenco. Potrebno je bilo veliko let in dela za razvoj in vzdrževanje tega dodatka in vaš nakup me spodbuja, da nadaljujem.">
+<!ENTITY foxyproxy.authentication.label "Overitev">
+<!ENTITY foxyproxy.proxyusername.label "Uporabniško ime">
+<!ENTITY foxyproxy.proxypassword.label "Geslo">
+<!ENTITY foxyproxy.proxypassword2.label "Geslo - ponovno">
+<!ENTITY foxyproxy.proxydomain.label "Domena (izbirno - samo NTLM)">
+<!ENTITY foxyproxy.proxydomain.tooltip "Samo overitev NTLM">
+<!ENTITY foxyproxy.proxy.passwords.nomatch.label "Gesli posrednika se ne ujemata; vnesite ju ponovno.">
+<!ENTITY foxyproxy.traininglogging.label "Priučitev in beleženje">
+<!ENTITY foxyproxy.traininglogging.tooltip "Upravljaj z nastavitvami priučitve in beleženja">
+<!ENTITY foxyproxy.traininglogging.accesskey "U">
+<!ENTITY foxyproxy.training.start "Začni priučitev">
+<!ENTITY foxyproxy.training.stop "Ustavi priučitev">
+<!ENTITY foxyproxy.patternsforall.label "Ustvari vzorce za vse">
+<!ENTITY foxyproxy.patternsforall.accesskey "s">
+<!ENTITY foxyproxy.patternsforall.tooltip "Ustvari vzorce za vse URL-je">
+<!ENTITY foxyproxy.patternsforselected.label "Ustvari vzorce za izbrane">
+<!ENTITY foxyproxy.patternsforselected.accesskey "b">
+<!ENTITY foxyproxy.patternsforselected.tooltip "Ustvari vzorce za izbrane URL-je">
+<!ENTITY foxyproxy.patterntoadd.label "Vzorec za dodajanje">
+<!ENTITY foxyproxyplus.released "Izdano po">
+<!ENTITY foxyproxyplus.license "licenci FoxyProxy Plus">
+<!-- end foxyproxyplus -->

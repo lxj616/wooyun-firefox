@@ -1,0 +1,13 @@
+<!ENTITY help.title.foxyproxy.help "Pomoč FoxyProxy">
+<!ENTITY help.patterns "Vzorci URL-ja">
+<!ENTITY help.ff.asks "Preden Firefox naloži URL, vpraša FoxyProxy, če je potrebno uporabiti posrednika.">
+<!ENTITY help.fp.answers "FoxyProxy odgovori na to vprašanje s poskusom ujemanja trenutnega URL-ja z vsemi spodnjimi vzorci URL-ja. Najbolj preprost način določanja vzorcev je z nadomestnimi znaki.">
+<!ENTITY help.a.wildcards "Nadomestni znaki">
+<!ENTITY help.p.wildcards.are "Nadomestni znaki se v računalništvu veliko uporabljajo; verjetno ste jih že videli. Zvezdica (*) nadomešča nič ali več znakov in vprašaj (?) nadomešča en znak.">
+<!ENTITY help.p.regexp "Možna so bolj napredna pravila z uporabo običajnih izrazov. Za podrobnosti kliknite gumb 'Vsebina pomoči'.">
+<!ENTITY help.h4.wildcard.examples "Primeri nadomestnih znakov">
+<!ENTITY help.th.url.pattern "Vzorec URL-ja">
+<!ENTITY help.th.some.matches "Nekatera ujemanja">
+<!ENTITY help.th.some.non.matches "Nekatera neujemanja">
+<!ENTITY help.td.everything.in.y "Vse iz domene Yahoo">
+<!ENTITY help.i.matches.everything "Se ujema z vsem">
