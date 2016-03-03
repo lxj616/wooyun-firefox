@@ -5,19 +5,27 @@ Version:0.17:$
 Arch:x86_64-gcc3:$
 
 [PLUGINS]
-libfreshwrapper-pepperflash.so:$
-/usr/lib/mozilla/plugins/libfreshwrapper-pepperflash.so:$
-19.0.0.245:$
-1442544991000:0:0:0:$
-Shockwave Flash 19.0 r0:$
+libgnome-shell-browser-plugin.so:$
+/usr/lib/mozilla/plugins/libgnome-shell-browser-plugin.so:$
+:$
+1454811404000:0:0:0:$
+This plugin provides integration with Gnome Shell for live extension enabling and disabling. It can be used only by extensions.gnome.org:$
+Gnome Shell Integration:$
+1
+0:application/x-gnome-shell-integration:Gnome Shell Integration Dummy Content-Type::$
+libfreshwrapper-flashplayer.so:$
+/usr/lib/browser-plugin-freshplayer-pepperflash/libfreshwrapper-flashplayer.so:$
+13.1.2.3:$
+1455578395000:0:0:0:$
+Shockwave Flash 13.1 r2:$
 Shockwave Flash:$
 2
 0:application/x-shockwave-flash:Shockwave Flash:swf:$
 1:application/futuresplash:FutureSplash Player:spl:$
 libflashplayer.so:$
 /usr/lib/flashplugin-installer/libflashplayer.so:$
-11.2.202.559:$
-1454382652000:0:0:0:$
+11.2.202.569:$
+1456824779000:0:0:0:$
 Shockwave Flash 11.2 r202:$
 Shockwave Flash:$
 2

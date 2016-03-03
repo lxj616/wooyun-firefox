@@ -1,6 +1,6 @@
 /**
   FoxyProxy
-  Copyright (C) 2006-2015 FoxyProxy, Inc.
+  Copyright (C) 2006-2016 FoxyProxy, Inc.
   http://getfoxyproxy.org/
   eric.jung@getfoxyproxy.org
 

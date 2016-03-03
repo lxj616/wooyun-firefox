@@ -1,6 +1,6 @@
 /**
   FoxyProxy
-  Copyright (C) 2006-2015 Eric H. Jung and FoxyProxy, Inc.
+  Copyright (C) 2006-2016 Eric H. Jung and FoxyProxy, Inc.
   http://getfoxyproxy.org/
   eric.jung@getfoxyproxy.org
 
@@ -1039,12 +1039,11 @@ patternSubscriptions.checksumVerification = function(aChecksum, aSubscription) {
   ch.init(ch.MD5);
   ch.update(data, data.length);
   hash = ch.finish(false);
-  finalHash = [this.toHexString(hash.charCodeAt(i)) for (i in hash)].
-    join("");
-  if (finalHash === aChecksum) {
-    return true;
-  }
-  return false;
+  var finalHash = "";
+  // https://bugzilla.mozilla.org/show_bug.cgi?id=1220564
+  // https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsICryptoHash#Computing_the_Hash_of_a_File
+  for (i in hash) finalHash = (finalHash + "" + this.toHexString(hash.charCodeAt(i)));
+  return finalHash === aChecksum;
 };
 
 patternSubscriptions.toHexString = function(charCode) {
