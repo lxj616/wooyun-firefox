@@ -3,7 +3,7 @@ A firefox profile for web security enthusiasts (Supposed to be configured with w
 
 ## Version ##
 
-firefox 45.0.1+build1-0ubuntu1
+47.0+build3-0ubuntu0.16.04.1
 
 ## Running ##
 
